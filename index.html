@@ -29,7 +29,7 @@
 <body><br/>
   
  <header>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" id="navbar">
     <a class="navbar-brand" href="#">Carousel</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -291,10 +291,10 @@
     $(window).scroll(function() {
        if($(this).scrollTop() > height) { 
          alert("if");
-           $('.navbar').addClass('scrolled');
+           $("#navbar").addClass('scrolled');
        } else {
          alert("else");
-           $('.navbar').removeClass('scrolled');
+           $("#navbar").removeClass('scrolled');
        }
     });
 });
