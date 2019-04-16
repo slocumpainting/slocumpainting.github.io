@@ -80,17 +80,17 @@
   box-shadow: 0 0 4px grey;
 }
 .navbar.solid .navbar-brand {
-  color: #FFFFFF;
+  color: #000000;
   transition: color 1s ease 0s;
 }
 .navbar.solid .navbar-nav > li > a {
-  color: #FFFFFF;
+  color: #000000;
   transition: color 1s ease 0s;
 }
 
 .about {
   background-color: #FFFFFF;
-  color: #FFFFFF;
+  color: #000000;
   height: 600px;
   text-align: center;
   margin-top: -20px;
@@ -169,7 +169,7 @@
   background-color: #FFFFFF;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  color: #c57ed3;
+  color: #FFFFFF;
   background-color: #FFFFFF;
 }
 .navbar-default .navbar-collapse.collapse.in ul {
@@ -182,16 +182,16 @@
   box-shadow: 0 0 4px grey;
 }
 .navbar.solid .navbar-brand {
-  color: #c57ed3;
+  color: #000000;
   transition: color 1s ease 0s;
 }
 .navbar.solid .navbar-nav > li > a {
-  color: #c57ed3;
+  color: #000000;
   transition: color 1s ease 0s;
 }
 .about {
   background-color: #FFFFFF;
-  color: #FFFFFF;
+  color: #000000;
   height: 600px;
   text-align: center;
   margin-top: -20px;
