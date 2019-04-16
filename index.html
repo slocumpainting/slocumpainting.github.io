@@ -290,6 +290,7 @@
   $(document).ready(function() {
     $(window).scroll(function() {
       if(window.scrollY==0){
+        alert("made it to if");
         $("#navbar").css(background,none);
       }else{
         $("#navbar").removeClass('scrolled');
