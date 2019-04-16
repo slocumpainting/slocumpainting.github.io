@@ -289,18 +289,11 @@
 <script>
   $(document).ready(function() {
     $(window).scroll(function() {
-      //alert("scrolling");
-      alert(window.scrollY);
-      if($(window).scrollY==0){
- alert("user scrolled to the top of the page");
-}
-       if($(window).scrollTop() > height) { 
-         alert("if");
-           $("#navbar").addClass('scrolled');
-       } else {
-         alert("else");
-           $("#navbar").removeClass('scrolled');
-       }
+      if(window.scrollY==0){
+        $("#navbar").css(background,none);
+      }else{
+        $("#navbar").removeClass('scrolled');
+      }
     });
 });
 </script>
