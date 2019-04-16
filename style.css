@@ -75,9 +75,10 @@
 
 /* Solid class attached on scroll past first section */
 .navbar.solid {
+  color: #000000;
   background-color: #FFFFFF;
   transition: background-color 1s ease 0s;
-  box-shadow: 0 0 4px grey;
+  /*box-shadow: 0 0 4px grey;*/
 }
 .navbar.solid .navbar-brand {
   color: #000000;
@@ -180,7 +181,7 @@
   color: #000000
   background-color: #FFFFFF;
   transition: background-color 1s ease 0s;
-  box-shadow: 0 0 4px grey;
+  /*box-shadow: 0 0 4px grey;*/
 }
 .navbar.solid .navbar-brand {
   color: #000000;
