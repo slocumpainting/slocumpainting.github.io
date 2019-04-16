@@ -290,7 +290,10 @@
   $(document).ready(function() {
     $(window).scroll(function() {
       //alert("scrolling");
-       if($(this).scrollTop() > height) { 
+      if($(window).scrollY==0){
+ alert("user scrolled to the top of the page");
+}
+       if($(window).scrollTop() > height) { 
          alert("if");
            $("#navbar").addClass('scrolled');
        } else {
