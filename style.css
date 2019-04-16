@@ -22,8 +22,8 @@
   font-size: 1.2em;
 }
 .image p .btn:hover {
-  color: #C57ED3;
-  border-color: #C57ED3;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
 }
 
 .navbar {
@@ -40,37 +40,37 @@
   color: white;
 }
 .navbar-default .navbar-brand:hover {
-  color: #C57ED3;
-  border: 1px solid #C57ED3;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
 }
 .navbar-default .navbar-nav > li > a {
   color: white;
   margin: 10px 5px 5px 5px;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:focus {
-  color: #C57ED3;
-  border: 1px solid #C57ED3;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
 }
 .navbar-default .navbar-nav > li > a:visited {
-  color: #C57ED3;
+  color: #FFFFFF;
   text-decoration: none;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   background-color: transparent;
-  color: #C57ED3;
+  color: #FFFFFF;
 }
 .navbar-default .navbar-toggle {
-  border-color: #C57ED3;
+  border-color: #FFFFFF;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: #490D40;
+  background-color: #FFFFFF;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  color: #C57ED3;
-  background-color: #C57ED3;
+  color: #FFFFFF;
+  background-color: #FFFFFF;
 }
 .navbar-default .navbar-collapse.collapse.in ul {
-  background-color: #490D40;
+  background-color: #FFFFFF;
 }
 
 /* Solid class attached on scroll past first section */
@@ -80,17 +80,17 @@
   box-shadow: 0 0 4px grey;
 }
 .navbar.solid .navbar-brand {
-  color: #C57ED3;
+  color: #FFFFFF;
   transition: color 1s ease 0s;
 }
 .navbar.solid .navbar-nav > li > a {
-  color: #C57ED3;
+  color: #FFFFFF;
   transition: color 1s ease 0s;
 }
 
 .about {
   background-color: #C57ED3;
-  color: #490D40;
+  color: #FFFFFF;
   height: 600px;
   text-align: center;
   margin-top: -20px;
@@ -104,7 +104,7 @@
 
 
 .image {
-  background-color: #490d40;
+  background-color: #FFFFFF;
   background: url(https://sonorangirl.github.io/Earth-Quotes/img/google-earth-view-South-Iceland3.jpg) no-repeat center center;
   background-size: cover;
   height: 570px;
@@ -127,8 +127,8 @@
   font-size: 1.2em;
 }
 .image p .btn:hover {
-  color: #c57ed3;
-  border-color: #c57ed3;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
 }
 .navbar {
   height: 80px;
@@ -144,7 +144,7 @@
 }
 .navbar-default .navbar-brand:hover {
   color: #c57ed3;
-  border: 1px solid #c57ed3;
+  border: 1px solid #FFFFFF;
 }
 .navbar-default .navbar-nav > li > a {
   color: white;
@@ -152,7 +152,7 @@
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:focus {
   color: #c57ed3;
-  border: 1px solid #c57ed3;
+  border: 1px solid #FFFFFF;
 }
 .navbar-default .navbar-nav > li > a:visited {
   color: #c57ed3;
@@ -163,21 +163,21 @@
   color: #c57ed3;
 }
 .navbar-default .navbar-toggle {
-  border-color: #c57ed3;
+  border-color: #FFFFFF;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: #490d40;
+  background-color: #FFFFFF;
 }
 .navbar-default .navbar-toggle .icon-bar {
   color: #c57ed3;
-  background-color: #c57ed3;
+  background-color: #FFFFFF;
 }
 .navbar-default .navbar-collapse.collapse.in ul {
-  background-color: #490d40;
+  background-color: #FFFFFF;
 }
 /* Solid class attached on scroll past first section */
 .navbar.solid {
-  background-color: #490d40;
+  background-color: #FFFFFF;
   transition: background-color 1s ease 0s;
   box-shadow: 0 0 4px grey;
 }
@@ -190,7 +190,7 @@
   transition: color 1s ease 0s;
 }
 .about {
-  background-color: #c57ed3;
+  background-color: #FFFFFF;
   color: #490d40;
   height: 600px;
   text-align: center;
