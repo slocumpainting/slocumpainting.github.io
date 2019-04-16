@@ -471,13 +471,26 @@
 <script>window.jQuery || document.write('<script src="https://getbootstrap.com/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')
 </script><script src="https://getbootstrap.com/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
 <script>
+ $(document).ready(function() {
+        // Transition effect for navbar 
+        $(window).scroll(function() {
+          // checks if window is scrolled more than 500px, adds/removes solid class
+          if($(this).scrollTop() > 500) { 
+              $('.navbar').addClass('solid');
+          } else {
+              $('.navbar').removeClass('solid');
+          }
+        });
+});
+</script>
+<script>
   $(document).ready(function() {
     $(window).scroll(function() {
       if(window.scrollY==0){
-        alert("made it to if");
-        $("#navbar").css(background,none);
+        //alert("made it to if");
+        //$("#navbar").css(background,none);
       }else{
-        $("#navbar").removeClass('scrolled');
+        //$("#navbar").removeClass('scrolled');
       }
     });
 });
